@@ -35,7 +35,7 @@ const Footer = () => {
                   fill="#FF7917"
                 ></path>{" "}
               </svg>
-              <span className="ml-2">Next Strapi Ecom Store</span>
+              <span className="ml-2">Next Strapi Ecom</span>
             </div>
 
             <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left dark:text-gray-400">
@@ -399,7 +399,7 @@ const Footer = () => {
             </p>
 
             <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0 dark:text-gray-400">
-              &copy; 2024 | Next Strapi Ecom Store
+              &copy; 2024 | Next Strapi Ecom
             </p>
           </div>
         </div>
