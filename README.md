@@ -1,1 +1,1 @@
-# next-strapi-app
+# next-strapi-ecom
