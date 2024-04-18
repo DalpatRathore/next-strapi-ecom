@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between px-2 h-20 sticky top-0 z-50 bg-background/90 backdrop-blur-sm">
       <Link href={"/"}>
-        <Avatar className="border p-1">
+        <Avatar className="border p-1 w-12 h-12">
           <AvatarImage src="/logo.svg"></AvatarImage>
           <AvatarFallback>NSE</AvatarFallback>
         </Avatar>
