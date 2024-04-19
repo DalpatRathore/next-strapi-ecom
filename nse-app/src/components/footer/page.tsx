@@ -3,8 +3,8 @@ import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
 const Footer = () => {
   return (
-    <footer className="pb-5 border-t border-gray-200 pt-6 dark:border-gray-900 ">
-      <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
+    <footer className="pb-5">
+      <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="flex justify-center">
           <Link href={"/"}>
             <Avatar className="p-1 w-12 h-12">
