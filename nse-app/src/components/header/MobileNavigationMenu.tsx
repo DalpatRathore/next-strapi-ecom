@@ -16,7 +16,7 @@ const MobileNavigationMenu = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Button variant="outline" size="icon">
+        <Button variant="outline" size="icon" asChild>
           <Menu className="w-6 h-6"></Menu>
         </Button>
       </SheetTrigger>
