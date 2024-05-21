@@ -11,7 +11,7 @@ const axiosClient = axios.create({
 
 const getLatestProducts = () =>
   axiosClient
-    .get("/products")
+    .get("/products?populate=*")
     .then(response => response.data)
     .catch(error => {
       console.error("Error fetching latest products:", error);

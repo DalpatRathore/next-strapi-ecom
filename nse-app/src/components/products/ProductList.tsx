@@ -17,11 +17,11 @@ const ProductList = ({ products }: any) => {
   }
 
   return (
-    <>
+    <div className="p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-red-300 gap-10">
       {productsData.map((product: any) => (
         <ProductItem key={product.id} product={product}></ProductItem>
       ))}
-    </>
+    </div>
   );
 };
 export default ProductList;
